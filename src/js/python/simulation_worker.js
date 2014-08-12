@@ -21,8 +21,8 @@ var startup = function() {
 		baseUrl: baseurl,
 		paths: {
 			'mathjs': 'math.min',
-			'Skulpt': 'visnav_edx_skulpt.min',
-			'SkulptStdlib': 'visnav_edx_skulpt-stdlib',
+			'Skulpt': 'autonavx_skulpt.min',
+			'SkulptStdlib': 'autonavx_skulpt-stdlib',
 		},
 		shim: {
 			'Skulpt': {

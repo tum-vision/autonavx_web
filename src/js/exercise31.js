@@ -6,8 +6,8 @@ requirejs.config({
 		'jquery': 'jquery.min',
 		'THREE/TrackballControls': 'three/TrackballControls',
 		'THREE/ColladaLoader': 'three/ColladaLoader',
-		'Skulpt': 'visnav_edx_skulpt.min',
-		'Skulpt/Stdlib': 'visnav_edx_skulpt-stdlib',
+		'Skulpt': 'autonavx_skulpt.min',
+		'Skulpt/Stdlib': 'autonavx_skulpt-stdlib',
 	},
 	shim: {
 		'Skulpt': {

@@ -3,8 +3,8 @@ requirejs.config({
 		'static': '../static/exercise2_numpy/',
 		'mathjs': 'math.min',
 		'jquery': 'jquery.min',
-		'Skulpt': 'visnav_edx_skulpt.min',
-		'Skulpt/Stdlib': 'visnav_edx_skulpt-stdlib',
+		'Skulpt': 'autonavx_skulpt.min',
+		'Skulpt/Stdlib': 'autonavx_skulpt-stdlib',
 	},
 	shim: {
 		'Skulpt': {

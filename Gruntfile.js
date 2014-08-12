@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 			//skulpt js-python files
 			skulpt: {
 				files: [
-					{ expand: true, flatten: true, src: 'vendor/visnav_edx_skulpt/dist/{visnav_edx_skulpt,visnav_edx_skulpt.min,visnav_edx_skulpt-stdlib}.js', dest: 'build/js/' },
+					{ expand: true, flatten: true, src: 'vendor/autonavx_skulpt/dist/{autonavx_skulpt,autonavx_skulpt.min,autonavx_skulpt-stdlib}.js', dest: 'build/js/' },
 				]
 			},
 
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
 				options: {
 					stdout: true
 				},
-				command: 'make -C vendor/visnav_edx_skulpt'
+				command: 'make -C vendor/autonavx_skulpt all && make -C vendor/autonavx_skulpt release'
 			}
 		},
 
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
 				tasks: [ 'copy:main', 'copy:static' ]
 			},
 			skulpt: {
-				files: [ "vendor/visnav_edx_skulpt/src/**" ],
+				files: [ "vendor/autonavx_skulpt/src/**" ],
 				tasks: [ 'shell:make_skulpt', 'copy:skulpt' ]
 			},
 		},
