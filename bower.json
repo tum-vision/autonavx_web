@@ -1,0 +1,28 @@
+{
+  "name": "visnav_edx_framework",
+  "version": "0.1.0",
+  "authors": [
+    "Christian Kerl <christian.kerl@in.tum.de>"
+  ],
+  "main": "src/app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.10",
+    "bootstrap": "~3.1.0",
+    "threejs": "*",
+    "requirejs-domready": "~2.0.1",
+    "ace": "~1.1.1",
+    "mathjs": "~0.21.0",
+    "d3": "~3.4.5",
+    "rickshaw": "master",
+    "requirejs-text": "~2.0.12"
+  }
+}

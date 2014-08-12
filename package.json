@@ -1,0 +1,25 @@
+{
+  "author": "Christian Kerl <christian.kerl@in.tum.de>",
+  "name": "visnav-framework",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://svncvpr.informatik.tu-muenchen.de/git/visnav_edx"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-bower-task": "~0.3.4",
+    "grunt-shell": "^0.6.4",
+    "grunt-open": "^0.2.3",
+    "grunt-contrib-requirejs": "~0.4.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

@@ -1,0 +1,17 @@
+build/
+node_modules/
+vendor/
+
+
+#python and editor cache files
+*.o
+*~
+.*.swp
+\#*
+.#*
+*.a
+*.so
+*.pyc
+*.pyo
+__pycache__
+
