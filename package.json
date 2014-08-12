@@ -1,10 +1,10 @@
 {
   "author": "Christian Kerl <christian.kerl@in.tum.de>",
-  "name": "visnav-framework",
-  "version": "0.0.0",
+  "name": "autonavx_web",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://svncvpr.informatik.tu-muenchen.de/git/visnav_edx"
+    "url": "https://github.com/tum-vision/autonavx_web.git"
   },
   "dependencies": {},
   "devDependencies": {
