@@ -142,7 +142,7 @@ define(["jquery", "THREE", "THREE/TrackballControls", "THREE/ColladaLoader"], fu
 
 		var loader = new ColladaLoader();
 		var grid = new THREE.GridHelper(has_webgl ? 20000 : 5000, 250);
-		grid.rotation = new THREE.Euler(Math.PI/2, 0, 0 );
+		grid.rotation.set(Math.PI/2, 0, 0 );
 		scene.add(grid);
 
 		var world_coords = createAxis();
