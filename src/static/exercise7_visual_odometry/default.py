@@ -151,10 +151,10 @@ class UserCode:
         :param linear_velocity - x and y velocity in local quadrotor coordinate frame (independet of roll and pitch)
         :param yaw_velocity - velocity around quadrotor z axis (independet of roll and pitch)
         '''
-        self.x = self.predictState(dt, self.x, linear_velocity, yaw_velocity)
-        
         F = self.calculatePredictStateJacobian(dt, self.x, linear_velocity, yaw_velocity)
         self.sigma = self.predictCovariance(self.sigma, F, self.Q);
+        
+        self.x = self.predictState(dt, self.x, linear_velocity, yaw_velocity)
         
         self.visualizeState()
     
